@@ -18,5 +18,5 @@ Contents
 
 .. toctree::
 
-   usage
+   django
    api
