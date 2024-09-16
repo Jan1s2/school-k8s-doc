@@ -33,9 +33,14 @@ Následně budete muset vytvořit soubor ``Dockerfile`` v kořenovém adresáři
 Tvorba image pomocí GitHub Actions
 ----------------------------------
 
+Nejdříve musíte v GitHub repozitáři otevřít záložku ``Actions``.
 
+Následně klikněte na ``Search workflows`` a vyhledejte ``Publish Docker Container``.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Klikněte na ``Configure``.
 
+Následně klikněte na ``Commit changes``.
+
+Následně musíte počkat na dokončení workflow (lze poznat z barvy vedle digestu posledního commitu - zelená = vše v pořádku, červená = chyba, oranžová = probíhá).
+
+Po dokončení workflow uvidíte vpravo v sekci ``Packages`` vytvořený image, klikněte na něj.
