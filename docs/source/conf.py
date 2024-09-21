@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Školní k8s dokumentace'
+copyright = '2024, it2125'
+author = 'it2125'
 
 release = '0.1'
 version = '0.1.0'
