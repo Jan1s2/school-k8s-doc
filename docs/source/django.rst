@@ -1,7 +1,7 @@
 Django projekt na k8s
-=====
+=====================
 
-.. _installation:
+.. _setup:
 
 Nastavení repozitáře
 --------------------
@@ -9,6 +9,7 @@ Nastavení repozitáře
 Zaprvé, je potřeba mít funkční projekt v Djangu. Jestliže takový projekt nemáte, můžete si stáhnout ukázkový projekt pomocí nasledujících příkazů.
 
 .. code-block:: console
+
    git clone https://github.com/lucny/mat_filmy.git
    cd mat_filmy
    git checkout solution
