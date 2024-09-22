@@ -9,3 +9,4 @@ Obsah
 .. toctree::
 
    django
+   multi-app
