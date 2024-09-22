@@ -9,4 +9,3 @@ Obsah
 .. toctree::
 
    django
-   api
