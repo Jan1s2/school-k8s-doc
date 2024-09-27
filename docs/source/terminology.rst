@@ -64,23 +64,23 @@ Persistent volume = objekt, který reprezentuje fyzické úložiště, které m�
 PVC 
 ---
 
-Persistent volume claim = objekt pomocí kterého si pod může zažádat o připojení k PV (případně vytvoření PV). Každý má `AccessMode`, `StorageClass` a `Storage`.
+Persistent volume claim = objekt pomocí kterého si pod může zažádat o připojení k PV (případně vytvoření PV). Každý má ``AccessMode``, ``StorageClass`` a ``Storage``.
 
-`Access mode` - režim, který určuje, jakým způsobem může být PV připojen k podu. Existují tři režimy: `ReadWriteOnce`, `ReadOnlyMany` a `ReadWriteMany`.
+``Access mode`` - režim, který určuje, jakým způsobem může být PV připojen k podu. Existují tři režimy: ``ReadWriteOnce``, ``ReadOnlyMany`` a ``ReadWriteMany``.
 
-  - `ReadWriteOnce` - PV může být připojen pouze na jednom určitém nodu pro čtení a zápis.
+  - ``ReadWriteOnce`` - PV může být připojen pouze na jednom určitém nodu pro čtení a zápis.
 
-  - `ReadOnlyMany` - PV může být připojen na více nodů pro čtení.
+  - ``ReadOnlyMany`` - PV může být připojen na více nodů pro čtení.
 
-  - `ReadWriteMany` - PV může být připojen na více nodů pro čtení a zápis.
+  - ``ReadWriteMany`` - PV může být připojen na více nodů pro čtení a zápis.
 
 .. note::
 
-  Ve školním clusteru je podporován pouze Access mode `ReadWriteOnce`.
+  Ve školním clusteru je podporován pouze Access mode ``ReadWriteOnce``.
 
-`StorageClass` - třída, která definuje, jakým způsobem bude vytvořen PV. Ve školním clusteru je dostupná pouze třída `local-path`.
+``StorageClass`` - třída, která definuje, jakým způsobem bude vytvořen PV. Ve školním clusteru je dostupná pouze třída ``local-path``.
 
-`Storage` - velikost úložiště, které si pod žádá.
+``Storage`` - velikost úložiště, které si pod žádá.
 
 Přístup k aplikacím
 ===================
