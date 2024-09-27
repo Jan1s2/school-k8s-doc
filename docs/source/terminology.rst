@@ -91,12 +91,12 @@ Definuje službu (port), kterou objekt exportuje. Název této service je možn�
 
 Má několik módů:
 
-- ClusterIP - služba je dostupná pouze v rámci clusteru
-- NodePort - služba je dostupná na všech nodách v clusteru na daném portu
-- LoadBalancer - služba je dostupná z vnější sítě pomocí LoadBalanceru
-- ExternalName - služba je dostupná z vnější sítě pomocí DNS jména
+- ``ClusterIP`` - služba je dostupná pouze v rámci clusteru
+- ``NodePort`` - služba je dostupná na všech nodách v clusteru na daném portu
+- ``LoadBalancer`` - služba je dostupná z vnější sítě pomocí LoadBalanceru
+- ``ExternalName`` - služba je dostupná z vnější sítě pomocí DNS jména
 
-Headless Service - služba, která nemá přiřazenou IP adresu - je využívána přímo IP adresa podu.
+``Headless Service`` - služba, která nemá přiřazenou IP adresu - je využívána přímo IP adresa podu.
 
 Ingress
 -------
